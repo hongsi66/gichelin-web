@@ -63,7 +63,7 @@ restaurants.forEach(r => r.bookmarked = bookmarks.includes(r.name));
 
   let html = `
     <div class="top-bar">
-        <button class="star-btn" onclick="goHome()">🏠 홈</button>
+      <button class="home-btn" onclick="renderHomeView()"></button>
     </div>
     <div class="restaurant-grid">
   `;
@@ -208,7 +208,7 @@ function renderBookmarks() {
 
   let html = `
     <div class="top-bar">
-      <button class="star-btn" onclick="goHome()">🏠 홈</button>
+      <button class="home-btn" onclick="renderHomeView()"></button>
     </div>
     <div class="restaurant-grid">
   `;
